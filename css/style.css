@@ -2021,10 +2021,18 @@ h1, h2, h3, h4, h5,
   #particles-js{
     width: flex;
     height: flex;
-    background-color: #3aa0be;
+    background-color:#4285f4;
     background-image: url('');
     background-size: cover;
-    background-position: 30% 50%;
+    background-position: 100% 100%;
     background-repeat: no-repeat;
   }
+  #intro{
+    
+    color: rgb(255, 255, 255);
+  }
   
+  #particles-js canvas{
+    top: 0px;
+    position: absolute;
+  }
