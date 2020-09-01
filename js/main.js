@@ -11,6 +11,10 @@ jQuery(document).ready(function($) {
 	
 	$(".loader").delay(1000).fadeOut("slow");
   $("#overlayer").delay(1000).fadeOut("slow");	
+  /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', '../particles.js/demo/particles.json', function() {
+	console.log('callback - particles.js config loaded');
+  });
 
 	var siteMenuClone = function() {
 
